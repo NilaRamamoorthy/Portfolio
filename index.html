@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap" rel="stylesheet" />
+    <!-- Style Css Link -->
+    <link rel="stylesheet" href="./asserts/css/index.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poetsen+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold fs-4" href="#home">Portfolio.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"><img src="./asserts/icon/icons8-menu-64.png"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about-section">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Project</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <!-- Hero Section -->
+        <section class="hero container-fluid fade-in-up-scroll" id="home">
+            <div class="text-area">
+                <p class="fs-4">Hello, It's Me</p>
+                <h1>Nila Ramamoorthy</h1>
+                <p class="fs-4">And I'm a <span class="highlight" id="typed-text"></span><span
+                        class="highlight">|</span>
+                </p>
+                <p>I'm currently on a journey to become a python developer.</p>
+                <div class="socials mt-3">
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-whatsapp"></i>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-linkedin"></i>
+                </div>
+                <a href="#about-section"> <button class="btn btn-glow mt-4">More About Me</button></a>
+            </div>
+
+            <div class="profile-pic-wrapper">
+
+                <img src="./asserts/images/0852bb54-b4a9-485a-a949-931ad0ad13d8~1.jpg" class="profile-pic"
+                    alt="Profile" />
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section" id="about-section">
+            <div class="container d-flex gap-5 fade-in-up-scroll">
+                <div class="profile-pic-wrapper">
+                    <img src="./asserts/images/0852bb54-b4a9-485a-a949-931ad0ad13d8~1.jpg" class="profile-pic"
+                        alt="Profile" />
+                </div>
+                <div class="description">
+                    <h1 class="text-center text-md-start">About <span>Me</span></h1>
+                    <p> Hello! I'm a passionate <strong>Developer</strong> with a strong interest in
+                        building dynamic, scalable, and user-friendly web applications. As of now am a trainee learning
+                        Python full stack. I Am a happy learner, loves learning and building from scratch. </p>
+                    <div>
+                        <table class="custom-table">
+                            <tbody>
+                                <tr>
+                                    <th>Name</th>
+                                    <td>Nila Ramamoorthy</td>
+                                </tr>
+                                <tr>
+                                    <th>D.O.B</th>
+                                    <td>11th Oct 1995</td>
+                                </tr>
+                                <tr>
+                                    <th>Education</th>
+                                    <td>B.E ECE</td>
+                                </tr>
+                                <tr>
+                                    <th>Year of Graduation</th>
+                                    <td>2017</td>
+                                </tr>
+                                <tr>
+                                    <th>Graduated From</th>
+                                    <td>Karpagam Institute of Technology, Coimbatore</td>
+                                </tr>
+                                <tr>
+                                    <th>Occupation</th>
+                                    <td>Trainee at VTS</td>
+                                </tr>
+                                <tr>
+                                    <th>Skills</th>
+                                    <td>HTML, CSS, Bootstap,JavaScript, Python</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Skills Section -->
+        <section class="skills" id="skills">
+            <h2>Skills</h2>
+            <div class="skills-section">
+                <!-- Technical Skills -->
+                <div class="technical fade-in" id="technical">
+                    <h4>Technical Skills</h4>
+                    <div class="skill">
+                        <div class="skill-name">
+                            <span>HTML</span><span class="value">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="bar-fill" data-percent="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-name">
+                            <span>CSS</span><span class="value">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="bar-fill" data-percent="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-name">
+                            <span>JavaScript</span><span class="value">65%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="bar-fill" data-percent="65"></div>
+                        </div>
+                    </div>
+                     <div class="skill">
+                        <div class="skill-name">
+                            <span>Bootstap</span><span class="value">70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="bar-fill" data-percent="70"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-name">
+                            <span>Python</span><span class="value">10%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="bar-fill" data-percent="10"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Professional Skills -->
+                <div class="professional fade-in" id="professional">
+                    <h4>Professional Skills</h4>
+                    <div class="d-flex flex-wrap justify-content-center">
+                        <div class="circle-skill">
+                            <div class="circle" data-percent="70">
+                                <div class="circle-text text-white">70%</div>
+                            </div>
+                            <p>Creativity</p>
+                        </div>
+                        <div class="circle-skill">
+                            <div class="circle" data-percent="65">
+                                <div class="circle-text text-white">65%</div>
+                            </div>
+                            <p>Communication</p>
+                        </div>
+                        <div class="circle-skill">
+                            <div class="circle" data-percent="75">
+                                <div class="circle-text text-white">75%</div>
+                            </div>
+                            <p>Problem Solving</p>
+                        </div>
+                        <div class="circle-skill">
+                            <div class="circle" data-percent="85">
+                                <div class="circle-text text-white">85%</div>
+                            </div>
+                            <p>Teamwork</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Project -->
+        <section id="projects" class="fade-in-up-scroll">
+
+            <h2 class="text-center mb-5">My Recent Work</h2>
+
+            <div class="hero-section">
+                <!-- Card 1 -->
+                <div class="hero-card">
+                    <img src="./asserts/images/charming-isometric-toy-wonderland_1130573-99106.avif" alt="toy shop" />
+                    <div class="hero-info">
+                        <h4>Toy Shop Website</h4>
+                        <p>A toy shop website, user-friendly and responsive for mobile and web.</p>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="hero-card">
+                    <a href="https://nilaramamoorthy.github.io/Prototypes/Oasis%20Kitchen/login.html"><img src="./asserts/images/pngtree-big-isolated-motorcycle-vector-colorful-icons-flat-illustrations-of-delivery-by-image_984802.jpg"
+                        alt="Food Delivery" /></a>
+                    <div class="hero-info">
+                        <h4>Oasis Kitchen</h4>
+                        <p>A website with food ordering and kitchen business advice,user-friendly and responsive for mobile and web.</p>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="hero-card">
+                    <a href="https://nilaramamoorthy.github.io/Prototypes/StyleCo/login.html"><img
+                            src="./asserts/images/images.jpg" alt="Sport wear" /></a>
+                    <div class="hero-info">
+                        <h4>Style Co.</h4>
+                        <p>A Sports wear website, user-friendly and responsive for mobile and web.</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+        <!-- Contact section -->
+        <section class="contact-section fade-in-up-scroll" id="contact">
+
+            <!-- Left Side -->
+            <div class="contact-left">
+                <h2>Contact <span>Me</span></h2>
+                <h5>Let's Work Together</h5>
+                <p> Need an eager to Work developer to bring your idea to life, or
+                    just want to connect — I’m all ears. Let’s turn ideas into functional, beautiful digital
+                    experiences.</p>
+                <div class="contact-info">
+                    <p><i class="bi bi-send-fill"></i> reachoutnila@gmail.com</p>
+                    <p><i class="bi bi-telephone-fill"></i> +91 7539944245</p>
+
+                </div>
+                <!-- Social Icons -->
+                <!-- <div class="social-icons"> -->
+                <div class="socials mt-3">
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-whatsapp"></i>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-linkedin"></i>
+                </div>
+                <!-- </div> -->
+            </div>
+
+            <!-- Right Side -->
+            <div class="contact-right">
+                <form action="https://formspree.io/f/xdkgblne" method="post" class="contact-form">
+                    <input type="text" name="name" placeholder="Enter Your Name" required />
+                    <input type="email" name="email" placeholder="Enter Your Email" required />
+                    <input type="text" name="subject" placeholder="Enter Your Subject" />
+                    <textarea rows="5" name="Message" placeholder="Enter Your Message" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+
+        </section>
+        <footer Class="footer text-center bg-dark text-white"> Developed by Nila Ramamoorthy <span
+                style="color: goldenrod;"><i class="bi bi-moon"></i></span> </footer>
+        <!-- Bootstrap Bundle -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+        <!-- Js -->
+        <script src="./asserts/js/index.js"></script>
+</body>
+
+</html>
