@@ -37,26 +37,13 @@ window.onload = () => {
 
 // Scroll-triggered Animation 
 
-
-const displayScrollElement = (element) => {
-    element.classList.add('visible');
-};
-
-const hideScrollElement = (element) => {
-    element.classList.remove('visible');
-};
-
-// Create the observe with a threshold and a callback
 const observe = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            displayScrollElement(entry.target);
-        } else {
-            hideScrollElement(entry.target);
-        }
+
+        entry.target.classList.toggle("visible", entry.isIntersecting)
     });
 }, {
-    threshold: 0.5
+    threshold: 0.4
 });
 
 document.querySelectorAll('.fade-in-up-scroll').forEach(el => observe.observe(el));
@@ -90,7 +77,6 @@ function animateSkills() {
 const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
-            entry.target.classList.add('show');
             animateSkills();
         }
     });

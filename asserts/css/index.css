@@ -12,7 +12,6 @@
   }
 
 
-
   .navbar-toggler-icon {
       margin-top: -40px;
       width: 10px;
@@ -123,17 +122,17 @@
 
   @keyframes pulse {
       0% {
-          box-shadow: 0 0 20px #5e7477;
+          box-shadow: 0 0 40px #5e7477;
           
       }
 
       50% {
-          box-shadow: 0 0 40px #013832;
+          box-shadow: 0 10px 80px #013832;
          
       }
 
       100% {
-          box-shadow: 0 0 20px #232c2d;
+          box-shadow: 0 0 40px #232c2d;
          
       }
   }
@@ -243,7 +242,7 @@
   .fade-in-up-scroll {
       opacity: 0;
       transform: translateY(30px);
-      transition: all 2s ease;
+      transition: all 1.5s ease;
   }
 
   .fade-in-up-scroll.visible {
@@ -323,16 +322,6 @@
       font-size: 20px;
   }
 
-  .fade-in {
-      opacity: 0;
-      transform: translateY(30px);
-      transition: all 1s ease;
-  }
-
-  .fade-in.show {
-      opacity: 1;
-      transform: translateY(0);
-  }
 
   /* Project Section */
   #projects {
@@ -501,8 +490,6 @@
       }
   }
 
-  /*  */
-  /*  */
 
   @media screen and (max-width: 768px) {
       .contact-section {
